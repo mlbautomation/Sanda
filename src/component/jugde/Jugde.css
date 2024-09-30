@@ -1,0 +1,54 @@
+.main-container {
+  width: 98%;
+  margin: auto;
+}
+
+.main-container .title {
+  text-align: center;
+  color: white;
+}
+
+.main-container .score {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 200px;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+.main-container .score .plusBlue {
+  background-color: blue;
+  font-size: 50px;
+  color: white;
+}
+
+.main-container .score .plusRed {
+  background-color: red;
+  font-size: 50px;
+  color: white;
+}
+
+.main-container .options {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  height: 50px;
+  gap: 20px;
+}
+
+.main-container .options .minusRed {
+  background-color: grey;
+  font-size: 20px;
+  color: white;
+}
+
+.main-container .options .send {
+  background-color: gray;
+  font-size: 20px;
+  color: white;
+}
+
+.main-container .options .minusBlue {
+  background-color: gray;
+  font-size: 20px;
+  color: white;
+}
